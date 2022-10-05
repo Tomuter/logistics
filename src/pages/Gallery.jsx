@@ -30,7 +30,7 @@ function Gallery() {
     </div>
     </div>
     <div className={`bg-primary text-white text-[18px] pt-4 ${styles.paddingX} ${layout.sectionInfo} pb-2`}>
-      {/* <p className={`${styles.paragraph}  `}>Our team  confirming health commodities and actively taking part in 
+      {/* <p className={`${styles.paragraph}  `}>Our team  confirming health commodities and actively taking part in
       Last mile Delivery (PMI, PEPFAR, FP)for our client at the Sokoto 
       central medical store.</p>  */}
       <section
@@ -57,7 +57,7 @@ function Gallery() {
                 <img 
                  src={imgg.img}
                  alt={index}
-                 className=' h-1/2 '
+                 className=' h-1/2 m-2  '
                 />
                 </div>  
               ))}                                                  
